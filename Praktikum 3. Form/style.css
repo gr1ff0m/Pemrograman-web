@@ -1,0 +1,38 @@
+h1{
+    font-size: 60px;
+    font-family: Lucida;
+    color: rgb(217, 24, 24);
+    text-align: center;
+    }
+
+div {
+    width: 880px;
+    height: 150px;
+    margin: 0px auto;
+    background-color: rgb(102, 211, 250);
+    padding: 30;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.satu {
+    width: 880px;
+    height: 400px;
+    background-color: rgb(128, 128, 128);
+    padding: 30;
+    border: 5px solid rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.dua {
+    width: 880px;
+    height: 222px;
+    background-color: rgb(206, 131, 131);
+    padding: 30;
+    border: 5px solid rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+     
+    

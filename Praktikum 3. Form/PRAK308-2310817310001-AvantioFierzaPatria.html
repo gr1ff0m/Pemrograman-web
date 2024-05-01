@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title> Form</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body> 
+        <div><h1>Pendaftaran Kursus</h1></div>
+
+        <div class="satu">   
+        <font type=arial font size="6">Data Diri</font>
+        <br>
+        <table style="font-size: 20px;">
+
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama"></td>
+            </tr> 
+            <tr>
+                <td>Nim</td> 
+                <td><input type="text" name="nim"></td>
+            </tr>
+            <tr>
+                <td>E-mail</td> 
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td> 
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+        
+            <tr>
+            <td>Jenis Kelamin</td>
+            <td><input type = "radio" name="jenis_kelamin" value="L"> Laki-Laki</td>
+            </tr>
+            <tr>
+            <td></td>            
+            <td><input type = "radio" name="jenis_kelamin" value="P"> Perempuan</td>
+            </tr>
+
+                <tr>
+                <td>Pilih program Kursus</td>
+                <td><input type = "checkbox" name="Kursus_1" value="C#"> C#</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td><input type = "checkbox" name="Kursus_2" value="Java"> Java</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td><input type = "checkbox" name="Kursus_3" value="SQL">SQL</td>
+                </tr> 
+                <tr>
+                <td></td>
+                <td><input type = "checkbox" name="Kursus_4" value="HTML dan PHP"> HTML dan PHP</td>
+                </tr>
+         
+                <tr>
+            <td>Pilihan Hari/Jam Kursus</td> 
+            <td>
+            <select name="Pilihan Hari/Jam Kursus">
+                <option value="date"> Senin - Rabu/09 - 11.00</option>
+                <option value="dat"> Selasa - Kamis/01.00 - 04.00</option></td>
+             </tr>
+                <br>
+            </select>
+        </table> 
+         </div>
+
+        <div class="dua">
+        Komentar Anda
+            <br>
+            <textarea name = "Komentar" cols="75" rows="9" align="center">      
+            </textarea> 
+            <br>  <br>
+            <input type="reset" name="reset" value="Reset"> 
+            <input type="submit" name="submit" value="Submit"> 
+            <input type="button" name="cancel" value="Cancel">
+        </div><br>
+       
+    </body> 
+</html>
